@@ -38,7 +38,6 @@ umount /dev/sda3
 fdisk /dev/sda
 #d, 3, n, p, 3, +350MB, N, w
 reboot
-resize2fs /dev/sda3
 
 #11
 e2fsck -n /dev/sda3
